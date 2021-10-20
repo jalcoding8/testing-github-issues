@@ -7,6 +7,6 @@
 "There use of the word 'Git' referred to GitHub and not to the use of the git command line."
 
 "THE CHANGE:"
-"What the GitHUb change involved was that instead of using your 'password' to push changes from a local repo to the"
-"remote GitHub repo, a user would have to create a new Authentication Access Token."
+"What the GitHUb change involved was that instead of using your 'password' to push changes from a local repo to the remote GitHub repo,"
+"a user would have to create and implement the use of a new Authentication Access Token to push changes."
 "In order to create a (new) 'Authentication access token:"
