@@ -5,4 +5,4 @@
    
 
 Technologies
-    *  Navigating GitHub settings - Account - Developer Account
+   *  Navigating GitHub settings - Account - Developer Account
