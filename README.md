@@ -1,4 +1,4 @@
-##Table of Contents
-*General Info
+Table of Contents
 
-##Technologies
+
+Technologies
