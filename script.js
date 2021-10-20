@@ -23,8 +23,8 @@
        (save it somewhere on your computer)
 
        Important:  You should receive an email from Github to the email address you
-       entered associated with you GitHub account.  It will be a confirmation that
-       you have created/generated an Authentication access token.
+       entered associated with your GitHub account.  It will be a confirmation that
+       you have successfully created/generated an Authentication access token.
 
     When you are in the bash shell command line or another text editor 
     ( although bash shell is more considered to be a command processor ):
@@ -33,13 +33,14 @@
 
     In a parent directory already existing:
 
-     * I typed 'mkdir testing-github-issues' to make a new directory for this project
+     * I typed 'mkdir testing-github-issues' to make a new (sub) directory for this project
      * Then I typed 'cd testing-github-issues' to change directories into this new directory
      * Then I typed 'touch README.md' to create an empty file for thie new directory
        (to provide info about the project and to implement the use of 'Markdown')
 
      * Then I typed 'touch script.js' to create another empty file for the new directory
        (although it probably should have been a text file .txt)
+       I added the content here in Visual Studio Code.
      * Now I have a new local directory (subdirectory actually) containing 2 empty files.
     Next, in bash shell, I typed 'git init' to initialize a new repository that is intended
     to be associated with my GitHub account, and the terminal showed this confirmation:
@@ -50,16 +51,17 @@
 
     Next, I go over to GitHub.  I am already logged in and tap on the GtiHub tab icon at the top of
     my laptop screen.  (A little black octocat favicon)
-    At the top the GitHub page on the right I clicked on the +- icon in between my Github user icon
+    At the top of my GitHub page on the right I clicked on the +- icon in between my Github user icon
     and the bell icon.  
     A small drop down menu appears.  I clicked on 'new repository' so I can create my remote
     GitHub repository, that will be associated with my local repository. 
     A new Gtihub page appears
-    Near the top - after my GitHub username/ I typed in testing-github-issues 
+    Near the top - after my GitHub username/ (in the empty space) I typed testing-github-issues 
+    to give my new GitHub repository a name related to its' content/purpose.
     (and I am using https:// not ssh)
 
     Then you can choose to make your GitHub repository 'Public' or 'Private'
-    You don't need to select anything else, it will be handled elsewhere.
+    You don't need to select anything else, it will be handled elsewhere. (I chose 'Public')
     Next, towards the bottom of the page click on the green box 'create repsoitory'.
 
     A new page appears with three options for the new repository:
@@ -67,7 +69,7 @@
     I chose the 2nd option because I already created the local repository
     (so I don't need option 1)
     (and my local repository is not one of the listed choices of option 3) 
-    
+
     so one by one
     I copy and paste the three strings into bash shell terminal:
     1). 

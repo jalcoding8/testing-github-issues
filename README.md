@@ -9,14 +9,15 @@
    *  The (Javascript file) script.js contains the issue/experience/solution to the problem.
    *  The intent is to provide data to anyone else who is using an access token for the first time
       and has encountered the same issue as I did.
+   * I encountered a number of interrelated issues.
    
 
 ## Technologies
 This Project is created with/by:
-   *  Navigating GitHub settings - Account - Developer Account
+   *  Navigating GitHub - Settings - Developer Settings - Authentication access tokens
    *  Utilizing Markdown format for the README.md content
    *  Visual Studio Code
-   *  Using git command line in bash shell
+   *  Using git commands in bash shell terminal
    *  JavaScript
    *  Stack Overflow
    *  Google
