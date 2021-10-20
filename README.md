@@ -7,3 +7,8 @@
 
 ## Technologies
    *  Navigating GitHub settings - Account - Developer Account
+   *  Utilizing Markdown format for the README.md content
+   *  Visual Studio Code
+   *  Using git command line in bash shell
+   *  JavaScript
+   
