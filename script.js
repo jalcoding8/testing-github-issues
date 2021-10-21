@@ -156,6 +156,8 @@
     Now that the recently created personal access token is now associated with GitHub account,
     I am no longer prompted to enter my 'username' and 'personal access token'
     when I do a git push -u origin main in bash shell as I added content to this repository.
-    
-
+    When I go over to my GitHub account I see the changes to my files and a time stamp to
+    indicate the changes I made using the git command line inputs for the dirctory
+    that I created in bash shell for my Visual Studio Code editor are confirmed.
+    And I am now using the Markdown format to style my README.md file.
     `
