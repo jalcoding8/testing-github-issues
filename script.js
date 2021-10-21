@@ -170,5 +170,8 @@
     My personal access token is functional and now replaces use of a password.
 
     And I am now using the Markdown format to style my README.md file.
+    One additional detail:
+    
+    Hopefully, this issue is closed.
 
     `
