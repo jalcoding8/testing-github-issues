@@ -152,4 +152,10 @@
     when they are prompted to replace their old password with a new personal access token.
     Just remember when a bash CL prompts for 'password' it refers to the access token.
 
+    Finally:
+    Now that the recently created personal access token is now associated with GitHub account,
+    I am no longer prompted to enter my 'username' and 'personal access token'
+    when I do a git push -u origin main in bash shell as I added content to this repository.
+    
+
     `
