@@ -15,7 +15,7 @@
 ## Technologies
 This Project is created with/by:
    *  Navigating GitHub - Settings - Developer Settings - Authentication access tokens
-   *  Utilizing Markdown format for the README.md content
+   *  Utilizing Markdown language for the README.md content
    *  Visual Studio Code
    *  Using git commands in bash shell terminal
    *  JavaScript

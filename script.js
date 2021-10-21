@@ -71,8 +71,85 @@
     (and my local repository is not one of the listed choices of option 3) 
 
     so one by one
-    I copy and paste the three strings into bash shell terminal:
-    1). 
+    I entered as prompted, these three strings into bash shell terminal:
+    (I should hav copied and pasted, but I didn't)
 
+    1). git remote add https://github.com/myGitHubUsername/testing-github-issues.git
+    2). git branch -M main
+    3). git push -u origin main 
+    Then for the first time in a long time I saw this:
+    Username for 'https://github.com': I entered my Github username here
+    Password for 'https://jalcoding8@github.com': I originally entered my old GitHug password here
+
+
+    AND HERE IS WHEN I ENCOUNTERED MY GITHUB ISSUE (It took me a week to reconcile)
+    and before I went into Settings and created my first access token
+
+    Instead of getting a confirmation that I had pushed my local repository to my remote Github 
+    I saw this:
+    remote:  Support for password authehtication was removed on August 13, 2021.  Please use
+             a personal access token instead.
+    remote:  Please see github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+
+        
+    I followed the link and then created my first personal access token.  I saw the token briefly then
+    it disappeard from the page and text indicated it would expire in 1 month.
+    
+    So, I thought problem solved.  Instead of using my password when prompted for 'password':
+    I had a brand new personal access token to enter.
+    Since GitHub no longer uses a password at this juncture why hasn't the legacy code been
+    updated to use 'access token' instead of 'password'?
+
+    But when I entered the access token, it did not work and I saw the same two remote: messages
+    above, again.  
+    I tried a few more times and entered the access token each time.  I even 
+    entered incorrectly intentionally, to see if it would generate an 'incorrect password' amd it 
+    did.
+    So, I decided, perhaps I made some type of error.  So I created a second (new) access token.
+    At this point, I'm perplexed and frustrated,  so I posted on the Codecademy forum that I was
+    having this issue, and saw that others had indicated the same issue.  There was one attempt to
+    help but since it's a relative new issue, there wasn't much feedback.
+    Next I Googled the issue, but, again, as it is a relatively new as the password to access token was implemented
+    on August 13, 2021, and I did not find anything that helped.
+    Now on to Stack Overflow to post my issue.  I received a number of replies, but again it was 
+    more 'well, try this' and I had already tried the suggestions.  
+    One suggestion, which I felt was pointing to the problem, was again, the access token.
+    I went back to the token generation page and deleted both tokens.
+    There is a small box to click on the select 'delete'.
+    After deleting both tokens, I created one more new personal access token.
+
+    But this time something DIFFERENT happened.
+    In the upper right hand corner of my MacBook Air laptop, a text box appeared.
+    It was Googgle requesting that I log in to my original gmail account.
+    It was NOT the gmail account I created and linked to my GitHub account.
+    So I opted to not continue to log in, and instead selected 'cancel'.
+    I next received a email confirmation from GitHub to the gmail account that is
+    linked to my GitHub account, confirming I had successfully generated a new
+    access token.
+    I coped this access token, by clicking on the blue document icon that is next to the
+    last character of this long token (a mix of uppper and lowercase letters and numbers).
+    Went back to bash terminal:
+    Did a 'git push -u origin main
+    Up popped:
+    Username for 'https://github.com': I entered my GitHub username here'
+    Password for 'https://GitHubUserName@github.com': 'I pasted my newest personl access token here'
+    And, FINALLY, the push from my local repository my remote GitHub repository worked.
+    I saw this:
+    Branch main set up to track remote branch main from origin.
+    Everything up-to-date
+    Confirming a successful git push.
+
+    To clarify:
+    I have not determined why neither of the first two personal access tokens I created
+    did not work.  (they have both been deleted.)
+    Nor why the third, but now only existing personal access token, did work.
+    (which is still active and now associated with my Github account username/gmail.)
+    I followed the same protocol throughout each time.
+    But, I am didn't give up, and even though I repeated the same steps I was eventually
+    successfully, the problem is solved.
+
+    Perhaps this document/posting will be helpful to someone else with the same issue
+    when they are prompted to replace their old password with a new personal access token.
+    Just remember when a bash CL prompts for 'password' it refers to the access token.
 
     `
