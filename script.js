@@ -21,6 +21,7 @@
       * click on the box 'Generate new token'
        (a new access token will appear - click on the blue icon to copy it)
        (save it somewhere on your computer)
+    The personal access token is used to connect to the GitHub API.
 
        Important:  You should receive an email from Github to the email address you
        entered associated with your GitHub account.  It will be a confirmation that
@@ -72,7 +73,6 @@
 
     so one by one
     I entered as prompted, these three strings into bash shell terminal:
-    (I should hav copied and pasted, but I didn't)
 
     1). git remote add https://github.com/myGitHubUsername/testing-github-issues.git
     2). git branch -M main
